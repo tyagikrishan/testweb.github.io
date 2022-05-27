@@ -1,0 +1,124 @@
+/* Scss Document */
+.pulse:hover, .pulse:focus {
+	 animation: pulse 1s;
+	 box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+ @keyframes pulse {
+	 0% {
+		 box-shadow: 0 0 0 0 var(--hover);
+	}
+}
+
+.pulse-1:hover, .pulse-1:focus {
+	 animation: pulse 1s;
+	 box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+ @keyframes pulse {
+	 0% {
+		 box-shadow: 0 0 0 0 var(--hover);
+	}
+}
+
+.pulse-2:hover, .pulse-2:focus {
+	 animation: pulse 1s;
+	 box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+ @keyframes pulse {
+	 0% {
+		 box-shadow: 0 0 0 0 var(--hover);
+	}
+}
+ 
+.pulse-3:hover, .pulse-3:focus {
+	 animation: pulse 1s;
+	 box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+ @keyframes pulse {
+	 0% {
+		 box-shadow: 0 0 0 0 var(--hover);
+	}
+}
+
+.pulse-4:hover, .pulse-4:focus {
+	 animation: pulse 1s;
+	 box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+ @keyframes pulse {
+	 0% {
+		 box-shadow: 0 0 0 0 var(--hover);
+	}
+}
+
+.pulse-5:hover, .pulse-5:focus {
+	 animation: pulse 1s;
+	 box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+ @keyframes pulse {
+	 0% {
+		 box-shadow: 0 0 0 0 var(--hover);
+	}
+}
+
+.pulse-6:hover, .pulse-6:focus {
+	 animation: pulse 1s;
+	 box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+ @keyframes pulse {
+	 0% {
+		 box-shadow: 0 0 0 0 var(--hover);
+	}
+}
+ .pulse-1 {
+	 --color: #a972cb;
+	 --hover: #f2061a;
+}
+ .pulse {
+	 --color: #ef6eae;
+	 --hover: #06cd0e;
+}
+ .pulse-2 {
+	 --color: #ff7f82;
+	 --hover: #ee0ff0;
+}
+ .pulse-3 {
+	 --color: #ffa260;
+	 --hover: #0bf0f2;
+}
+ .pulse-4 {
+	 --color: #e4cb58;
+	 --hover: #daf032;
+}
+ .pulse-5 {
+	 --color: #8fc866;
+	 --hover: #300fd8;
+}
+ .pulse-6 {
+	--color: #19bc8b;
+	--hover: #fa1e11;
+}
+ button {
+	 color: var(--color);
+	 transition: 0.25s;
+}
+ button:hover, button:focus {
+	 border-color: var(--hover);
+	 color: #fff;
+}
+ 
+ button {
+	 margin-left: 25px;
+	 background: none;
+	 border: 2px solid;
+	 font: inherit;
+	 line-height: 1;
+	 margin: 5px;
+	 padding: 5px 10px;
+}
+ h1 {
+	 font-weight: 400;
+}
+ code {
+	 color: #e4cb58;
+	 font: inherit;
+}
+ 

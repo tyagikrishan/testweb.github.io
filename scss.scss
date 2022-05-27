@@ -1,0 +1,12 @@
+/* Scss Document */
+.mantra h4 {
+  font-size: 56px;
+  -webkit-text-stroke: 3px darkgrey;
+  -webkit-text-fill-color: white;
+  -webkit-animation: fill 0.5s infinite alternate;
+}
+
+@-webkit-keyframes fill {
+  from { -webkit-text-fill-color: steelblue; }
+  to { -webkit-text-fill-color: slategrey; }
+}
